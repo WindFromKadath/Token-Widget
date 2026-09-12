@@ -1,0 +1,5 @@
+# 桥接服务配置文件（含会话凭据，勿提交 git）
+config.json
+*.tmp
+__pycache__/
+.pid

@@ -1,0 +1,22 @@
+{
+  "server": {
+    "host": "127.0.0.1",
+    "port": 18443,
+    "api_token": ""
+  },
+  "fetch": {
+    "timeout": 10,
+    "retries": 1,
+    "locale": "zh",
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+  },
+  "cache_ttl": 300,
+  "data_template": "滚动 {rolling_percent}% ({rolling_reset}) | 周 {weekly_percent}% ({weekly_reset}) | 月 {monthly_percent}% ({monthly_reset})",
+  "default_account": "main",
+  "accounts": {
+    "main": {
+      "auth_cookie": "在此粘贴你的 auth cookie 值（见 README 第一步）",
+      "workspace_id": "wrk_你的 workspace id"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# PyInstaller 中间产物
+*.spec.bak
+
+# Virtual environments
+.venv
+
+# 挂件自有配置（含 OpenCode cookie 等凭据，禁止入库）
+# 不带斜杠前缀：任何层级的 config.json 都忽略（example/模板文件不受影响）
+config.json
+
+# Qwen Code 本地工具状态
+.qwen/
+
+# 编辑器/IDE 本地配置（含个人路径）
+.vscode/
+
+# 测试缓存
+.pytest_cache/

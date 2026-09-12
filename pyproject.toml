@@ -1,0 +1,19 @@
+[project]
+name = "controlsystem-part1"
+version = "0.1.0"
+description = "Token 桌面挂件：镜像 CC Switch 已配置套餐的额度、重置倒计时与当日消耗（只读展示）"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "pyside6>=6.8",
+]
+
+[dependency-groups]
+dev = [
+    "pyinstaller>=6.21.0",
+    "pytest>=8.0",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
