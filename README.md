@@ -50,3 +50,9 @@ uv run pyinstaller --clean --noconfirm TokenWidget.spec
 
 `uv run pytest`（173 个用例）：Store 层、调度器、各采集器契约（mock HTTP）、
 余额模板、官方订阅凭据解析、挂件配置、webview 捕获纯函数、UI 组件（offscreen）。
+
+## 许可证
+
+本项目原创代码采用 [MIT License](LICENSE)，Copyright (c) 2026 WindFromKadath。
+
+第三方依赖与资产仍适用其各自的许可证。`token_widget/assets/icons/` 中来自 CC Switch 的图标保留上游 MIT 授权，见 [第三方声明](THIRD_PARTY_NOTICES.md)。相关品牌名称、商标与标志的权利归各自权利人所有。
